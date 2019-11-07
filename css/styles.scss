@@ -1,7 +1,31 @@
 body {
 	font-family: sans-serif;
+	background-image: url("../images/andy_warhol_test_pattern_1.png");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+
 
 	img {
 		width: 100%;
+	
 	}
+}
+.tracklist{
+	padding: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border: 10px solid #5DA19F;
+}
+section{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	width: 560px;
+	height: 315px;
+  border: 10px solid #5DA19F;
+}
+ol{
+	list-style-position: inside;
 }
